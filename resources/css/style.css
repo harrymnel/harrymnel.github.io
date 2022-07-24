@@ -147,7 +147,6 @@ header .mobile {
   left: 10%;
   padding: 0 5rem 2.5rem 5rem;
   border: solid 1px #979797;
-  border-radius: 4px;
   background: rgba(255, 255, 255, 0.5);
   
 }
@@ -241,6 +240,7 @@ header .mobile {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
+  border-radius: 20px;
 }
 
 .feature .image-container {
@@ -437,12 +437,12 @@ header .mobile {
 /* Footer */
 
 footer {
-  background-color: #9b9b9b;
+  background-color: white;
   padding: 1.5rem 2rem;
 }
 
 footer .content {
-  color: white;
+  color: lightgray;
   display: flex;
   font-size: .75rem;
 }
