@@ -16,7 +16,7 @@ html {
 
 .button {
   border-radius: 4px;
-  background-color: #4a4a4a;
+  background-color: rgb(242, 140, 40);
   color: white;
 }
 
@@ -43,12 +43,14 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  opacity: 1;
 }
 
 header .content {
   display: flex;
   align-items: center;
   padding: 1.875rem;
+  opacity: 1;
 }
 
 header .logo {
@@ -72,14 +74,14 @@ nav a {
 
 nav .button {
   padding: .1875rem .5rem;
-  background-color: #9dc20b;
+  /*background-color: rgb(242, 140, 40);*/
   line-height: 1.6;
   color: white;
 }
 
-nav li:last-child {
+/*nav li:last-child {
   display: none;
-}
+}*/
 
 header .icon {
   width: 1rem;
@@ -146,7 +148,8 @@ header .mobile {
   padding: 0 5rem 2.5rem 5rem;
   border: solid 1px #979797;
   border-radius: 4px;
-  background-color: #9dc20b;
+  background: rgba(255, 255, 255, 0.5);
+  
 }
 
 #info .content {
@@ -155,7 +158,8 @@ header .mobile {
   font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
   line-height: 1.4;
-  color: white;
+  color: rgb(0, 0, 0);
+  
 }
 
 #info h1 {
@@ -331,6 +335,10 @@ header .mobile {
   padding: 0 1%;
 }
 
+#picture-section .image-container{
+  padding: 0.5rem;
+}
+
 @media only screen and (max-width: 600px) {
   #picture-section {
     padding: 1.5rem 0 0 0;
@@ -361,53 +369,68 @@ header .mobile {
   }
 }
 
-/* Quotes Section */
+/* Country Section */
 
-#quotes-section {
-  background-color: #f3f3f3;
+#country-section {
+  padding: 4rem 0;
+  background-color: #4a4a4a;
 }
 
-#quotes-section .content {
+#country-section .content {
+  padding: 0 .625rem;
+  margin-bottom: 5rem;
+}
+
+#country-section .content h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: white;
+}
+
+#country-section .content h3 {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 300;
+  color: white;
+}
+
+#country-section .images-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5rem 1.5rem;
+  max-width: 100%;
+  padding: 0 1%;
 }
 
-#quotes-section .quote {
-  padding-right: 1.875rem;
-  font-family: "Palatino", serif;
-  font-size: 1.875rem;
-  line-height: 1.1;
-  font-style: italic;
-  color: #4a4a4a;
-}
-
-#quotes-section .quote-citation {
-  height: 1.875rem;
-}
-
-@media only screen and (max-width: 895px) {
-  #quotes-section .content {
-    padding: 3rem 1.5rem;
-  }
+#country-section .image-container{
+  padding: 0.5rem;
 }
 
 @media only screen and (max-width: 600px) {
-  #quotes-section .content {
-    flex-flow: column;
-    padding: 1.875rem .625rem;
+  #country-section {
+    padding: 1.5rem 0 0 0;
   }
 
-  #quotes-section .quote {
-    font-size: 1.5rem;
+  #country-section .content {
+    margin-bottom: 1rem;
+  }
+
+  #country-section .content h2 {
+    padding-bottom: .625rem;
+    font-size: 1.125rem;
+    line-height: 1.3;
+    font-weight: normal;
+  }
+
+  #country-section .content h3 {
+    font-size: .875rem;
     line-height: 1.4;
   }
 
-  #quotes-section .quote-citation {
-    display: block;
-    padding-top: 1rem;
-    margin: auto;
+  #country-section .images-container {
+    padding: 0.5rem;
+  }
+
+  #country-section .extra {
+    display: none;
   }
 }
 
