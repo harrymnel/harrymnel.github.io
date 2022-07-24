@@ -307,8 +307,8 @@ header .mobile {
 /* Picture Section */
 
 #picture-section {
-  padding: 4rem 0;
-  background-color: #4a4a4a;
+  padding: 4rem;
+  background-color: rgb(242, 140, 40);
 }
 
 #picture-section .content {
@@ -372,8 +372,8 @@ header .mobile {
 /* Country Section */
 
 #country-section {
-  padding: 4rem 0;
-  background-color: #4a4a4a;
+  padding: 4rem;
+  background-color: white;
 }
 
 #country-section .content {
@@ -384,14 +384,14 @@ header .mobile {
 #country-section .content h2 {
   font-size: 2.25rem;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 #country-section .content h3 {
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 300;
-  color: white;
+  color: black;
 }
 
 #country-section .images-container {
