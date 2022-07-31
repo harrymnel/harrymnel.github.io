@@ -397,6 +397,7 @@ header .mobile {
 #country-section {
   padding: 4rem;
   background-color: white;
+  filter: drop-shadow(0 0 0.1rem black);
 }
 
 #country-section .content {
