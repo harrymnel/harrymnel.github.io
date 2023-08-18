@@ -152,7 +152,7 @@ header .mobile {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 44rem;
+  height: 50rem;
   background-image: url('../images/banner-landingpage.png');
   background-position: bottom;
   background-size: cover;
@@ -195,6 +195,7 @@ header .mobile {
 #info .button {
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 895px) {
