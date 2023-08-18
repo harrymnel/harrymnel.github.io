@@ -174,7 +174,6 @@ header .mobile {
 #info .content {
   width: 25.625rem;
   margin-top: 1rem;
-  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 1.4;
   color: rgb(0, 0, 0);
@@ -182,18 +181,15 @@ header .mobile {
 
 #info h1 {
   font-size: 2rem;
+  font-weight: bold;
 }
 
 #info h2 {
   font-size: 1.5rem;
 }
 
-#info .name {
-  font-family: 'Montserrat';
-}
 
 #info .button {
-  margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
   color: #ffffff;
 }
